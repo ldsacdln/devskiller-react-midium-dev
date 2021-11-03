@@ -1,0 +1,29 @@
+{
+  "name": "devskiller-javascript-book-reviews",
+  "private": true,
+  "scripts": {
+    "test": "karma start",
+    "build": "webpack",
+    "test:watch": "karma start --no-single-run --auto-watch"
+  },
+  "engines": {
+    "node": ">=8.9.4"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.12.1",
+    "webpack-cli": "^4.3.1"
+  },
+  "devDependencies": {
+    "jasmine-core": "^3.6.0",
+    "karma": "^5.0.0",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-jasmine": "^4.0.1",
+    "karma-junit-reporter": "^2.0.1",
+    "karma-read-json": "^1.1.0",
+    "karma-webpack": "^4.0.2"
+  }
+}
